@@ -1,0 +1,42 @@
+.row {
+    width: 100%;
+}
+
+.col-6 {
+    width: 50%;
+}
+
+.col-4 {
+    width: 33.3%;
+}
+
+.header {
+    border-bottom: 3px solid #7d97ad;
+    color: #2d3c49;
+}
+
+.left {
+    float: left;
+}
+
+.logo {
+    width: 100px;
+    height: auto;
+}
+
+.right {
+    text-align: right;
+}
+
+.cover {
+    width: 80%;
+}
+
+.projImage {
+    width: 30%;
+}
+
+.header, .projects {
+    display: flex;
+    flex-wrap: wrap;
+}
