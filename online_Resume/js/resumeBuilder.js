@@ -84,7 +84,7 @@ var education = {
             school.majors.forEach(function(major) {
                 var formattedSchoolMajor = HTMLschoolMajor.replace("%data%", major);
                 $(".education-entry").append(formattedSchoolMajor);
-            })
+            });
         });
 
         $("#education").append(HTMLonlineClasses);
@@ -101,7 +101,7 @@ var education = {
 
             var formattedOnlineURL = HTMLonlineURL.replace("%data%", course.url);
             $(".education-entry:last").append(formattedOnlineURL);
-        })
+        });
     }
 };
 
@@ -130,7 +130,7 @@ var work = {
 
             var formattedWorkDescription = HTMLworkDescription.replace("%data%", job.description);
             $(".work-entry").append(formattedWorkDescription);
-        })
+        });
     }
 };
 
@@ -156,7 +156,7 @@ var projects = {
             project.images.forEach(function(image) {
                 var formattedProjectImage = HTMLprojectImage.replace("%data%", image);
                 $(".project-entry").append(formattedProjectImage);
-            })
+            });
         });
     }
 };
