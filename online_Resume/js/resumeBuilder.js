@@ -20,22 +20,22 @@ var bio = {
         $('#header').prepend(formattedHeaderName);
 
         var formattedMobile = HTMLmobile.replace("%data%", bio.contacts.mobile);
-        $('#topContacts').append(formattedMobile);
+        $('#topContacts, #footerContacts').append(formattedMobile);
 
         var formattedEmail = HTMLemail.replace("%data%", bio.contacts.email);
-        $('#topContacts').append(formattedEmail);
+        $('#topContacts, #footerContacts').append(formattedEmail);
 
         var formattedTwitter = HTMLtwitter.replace("%data%", bio.contacts.twitter);
-        $('#topContacts').append(formattedTwitter);
+        $('#topContacts, #footerContacts').append(formattedTwitter);
 
         var formattedGithub = HTMLgithub.replace("%data%", bio.contacts.github);
-        $('#topContacts').append(formattedGithub);
+        $('#topContacts, #footerContacts').append(formattedGithub);
 
         var formattedBlog = HTMLblog.replace("%data%", bio.contacts.blog);
-        $('#topContacts').append(formattedBlog);
+        $('#topContacts, #footerContacts').append(formattedBlog);
 
         var formattedLocation = HTMLlocation.replace("%data%", bio.contacts.location);
-        $('#topContacts').append(formattedLocation);
+        $('#topContacts, #footerContacts').append(formattedLocation);
 
         var formattedBioPic = HTMLbioPic.replace("%data%", bio.biopic);
         $('#header').append(formattedBioPic);
@@ -166,4 +166,4 @@ bio.display();
 education.display();
 work.display();
 projects.display();
-$('#mapDiv').append(internationalizeButton);
+$('#mapDiv').append(googleMap);
