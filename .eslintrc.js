@@ -18,8 +18,21 @@ module.exports = {
         "react/jsx-uses-vars": 1,
         "react/display-name": 1,
         "no-unused-vars": "warn",
-        "no-console": 1,
-        "no-unexpected-multiline": "warn"
+        "no-console": 0,
+        "no-unexpected-multiline": "warn",
+        "max-len": [1, 80, 2, {
+            "ignoreTemplateLiterals": true,
+            "ignoreStrings": true
+        }],
+        "require-jsdoc": ["error", {
+            "require": {
+                "FunctionDeclaration": false,
+                "MethodDefinition": false,
+                "ClassDeclaration": false,
+                "ArrowFunctionExpression": false,
+                "FunctionExpression": false
+            }
+        }]
     },
     "settings": {
         "react": {
