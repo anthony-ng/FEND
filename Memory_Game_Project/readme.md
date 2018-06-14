@@ -13,6 +13,7 @@ Each turn:
   * The player then turns over a second card, trying to find the corresponding card with the same symbol.
   * If the cards match, both cards stay flipped over.
   * If the cards do not match, both cards are flipped face down.
+
 The game ends once all cards have been correctly matched.
 
 ### Game Functionality
@@ -22,6 +23,7 @@ The real-life game, players flip over cards to locate the pairs that match The g
   * What happens when cards match
   * What happens when cards do not match
   * When the game finishes
+  
 Below are some examples of how we implemented these interactions.
 
 ### Interactivity Guideline
@@ -37,4 +39,5 @@ The following are just some of the questions that you'll experience along the wa
   * Do I modify the HTML first or the CSS?
   * How many JavaScript functions do I need?
   * Should my function be this many lines of code?
+
 There's no one right answer to each question. While building this project, working with mentors, and getting feedback from the project reviewer you'll develop answers to these questions.
